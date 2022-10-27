@@ -1,2 +1,4 @@
 # ProgrammingLanguagesOne
-Course for beginners in OOP and DSA in CPP::20.
+A course that introduces you to OOP and DSA in CPP. 
+
+All rights are reserved to the author of the repository.
