@@ -62,7 +62,7 @@ int PriorityQueue::find(int value)
 bool PriorityQueue::removeValue(int value)
 {
     bool flag = false;
-    if(find(value))flag=true;
+    if(find(value)==-1)flag=true;
 
     int index= find(value);
     while(index!=-1)
