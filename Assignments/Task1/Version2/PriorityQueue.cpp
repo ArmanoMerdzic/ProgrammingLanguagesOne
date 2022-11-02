@@ -51,6 +51,10 @@ void PriorityQueue::removeValue(int value)
 {
    
     removeHelper(this->head,value);
+    if (head != nullptr && head->value == value)
+      {
+        remove();
+      }    
 }
 Node* PriorityQueue::removeHelper(Node *head, int value)
 {
