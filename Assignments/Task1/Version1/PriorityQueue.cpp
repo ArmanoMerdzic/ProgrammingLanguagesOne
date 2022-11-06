@@ -68,7 +68,6 @@ bool PriorityQueue::removeValue(int value)
     while(index!=-1)
     {
         removeAt(index);
-        arrSize--;
         index= find(value);
     }
        return flag;
